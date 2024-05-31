@@ -10,6 +10,6 @@ spec:
     server: 'https://kubernetes.default.svc' # Kubernetes cluster URL
     namespace: my-app-namespace # Target namespace for deployment
   source:
-    repoURL: 'https://github.com/your-org/your-repo.git' # Your application repository
-    targetRevision: HEAD # Branch or tag to deploy
+    repoURL: 'https://github.com/jodybro/renovate-test.git' # Your application repository
+    targetRevision: afafc2e # Branch or tag to deploy
 
